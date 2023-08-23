@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    border: none;
+}
+
+.nav{
+    display: flex;
+    float: right;
+    gap: 100px;
+    justify-content: space-around;
+    position: relative;
+    bottom: 1px;
+    top: 5px;
+    
+    }
+.logo img{
+    height: 30px;
+    position: relative;
+    left: 30px;
+    border: 20px;
+     
+}
+.logo{
+    /* background-color: beige; */
+    padding: 20px;
+
+}
+.button{
+    color: black;
+    background-color:#EEBC00;
+    position: relative;
+    right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    float: right;
+    
+}
+
+.home .home-content h2{
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 400px;
+    top: 100px;
+}
+.home .home-content h3{
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 370px;
+    top: 100px;
+}
+.home .home-content p{
+    position: relative;
+    left:120px;
+    top: 120px;
+    font-size: 20px;
+}
+.imgx{
+    height: 450px;
+    
+    width: 500px;
+    position: relative;
+    
+    float: right;
+    bottom: 150px;
+    right: 150px;
+    filter:contrast(1.1);
+}
+.input-box {
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 120px;
+    background-color:rgb(223, 217, 217);
+    padding: 10px;
+    
+
+    
+}
+
+.input-box img{
+    height: 20px;
+    margin-right: 20px;
+    position: relative;
+    left: 20px;
+    mix-blend-mode: color-burn;
+}
+header{
+    border-bottom: 2px solid black;
+}
+.home{
+    height: 62vh;
+
+}
+.input{
+    display: inline-block;
+    position: relative;
+    left: 1%;
+}
+
+.input-text .name{
+    border: 2px solid black;
+    padding: 8px;
+    display: inline-block;
+    padding-right: 70px;
+}
+.input-text .mobile{
+    
+    border: 2px solid black;
+    padding: 8px;
+    display: inline-block;
+    
+}
+.input-text .email{
+
+    border: 2px solid black;
+    padding: 8px;
+    display: inline-block;
+    padding-right: 70px;
+
+}
+.skill{
+    position: relative;
+    bottom: 55px;
+    left: 150px;
+    word-spacing: 70px;
+}
+.input-text{
+    word-spacing: 10px;
+    
+    position: relative;
+    bottom: 27%;
+}
+.flexbox{
+    
+    
+    position: relative;
+    border-radius: 1rem;
+    top: 80px;
+    width: 80%;
+    left: 8%;
+    height: 159px;
+    padding: 0px 24px;
+    line-height: 3.5rem;
+    
+    z-index: 1000%;
+    background-color:rgb(245, 238, 238);
+    
+}
+.lower{
+    float: right;
+    position: relative;
+    
+
+    padding: 7px;
+    bottom: 40px;
+    background: rgb(250, 247, 247);
+    top: 100px;
+    left: 50vh;
+
+}
+.lower-caste{
+    background-color:rgba(245,224,141,255);
+    height: 100vh;
+}
+.lower-caste h2{
+    position: relative;
+    top: 150px;
+    left: 8%;
+}
+ .img0{
+ 
+ background: white;
+ position: relative;
+    border-radius: 1rem;
+    bottom:20px;
+    width: 8%;
+    
+    right: 8%;
+    height: 150px;
+    width: 250px;
+    padding: 0px 24px;
+    
+      display: flex; 
+    justify-content: center;
+       
+    
+    z-index: 1000%;
+    background-color:white;
+    
+ }
+ .learning{
+    position: relative;
+    bottom: 169vh;
+    left: 170px;
+
+ }
+.learning1{
+    
+    position: relative;
+    bottom: 173vh;
+    left: 495px;
+}
+.learning2{
+    
+    position: relative;
+    bottom: 179vh;
+    left: 760px;
+}
+.learning3{
+    
+    position: relative;
+    bottom: 185vh;
+    left: 1070px;
+}
+.learning4{
+    
+    position: relative;
+    bottom: 157vh;
+    left: 200px;
+}
+.learning5{
+    
+    position: relative;
+    bottom: 163vh;
+    left: 485px;
+}
+.learning6{
+    
+    position: relative;
+    bottom: 169vh;
+    left: 780px;
+}
+.learning7{
+    
+    position: relative;
+    bottom: 174vh;
+    left: 1060px;
+}
+.img1{
+       background: white;
+       position: relative;
+       
+       border-radius: 1rem;
+       bottom:170px;
+       width: 8%;
+       
+       left: 200px;
+    
+       height: 150px;
+       width: 250px;
+       padding: 0px 24px;
+       line-height: 3.5rem;
+       display: flex;
+       justify-content: center;
+       
+       
+       z-index: 1000%;
+       background-color:white;
+    
+ 
+ 
+ 
+}
+.img2{
+    
+ 
+    background: white;
+    position: relative;
+       border-radius: 1rem;
+       bottom:319px;
+       width: 8%;
+       left: 490px;
+       height: 150px;
+       width: 250px;
+       padding: 0px 24px;
+       line-height: 3.5rem;
+       display: flex;
+       justify-content: center;
+       
+       
+       z-index: 1000%;
+       background-color:white;
+
+}
+.img3{
+    
+    background: white;
+    position: relative;
+       border-radius: 1rem;
+       bottom:470px;
+       width: 8%;
+       left: 780px;
+       height: 150px;
+       width: 250px;
+       padding: 0px 24px;
+       line-height: 3.5rem;
+       display: flex;
+       justify-content: center;
+       
+       
+       z-index: 1000%;
+       background-color:white;
+
+
+}
+
+.img4{
+    
+ 
+    background: white;
+    position: relative;
+       border-radius: 1rem;
+       bottom:400px;
+       width: 8%;
+       
+       right: 8%;
+       height: 150px;
+       width: 250px;
+       padding: 0px 24px;
+       
+         display: flex; 
+       justify-content: center;
+          
+       
+       z-index: 1000%;
+       background-color:white;
+}
+ .img5{
+    
+    background: white;
+    position: relative;
+       border-radius: 1rem;
+       bottom:550px;
+       width: 8%;
+       left: 200px;
+       right: 8%;
+       height: 150px;
+       width: 250px;
+       padding: 0px 24px;
+       
+         display: flex; 
+       justify-content: center;
+          
+       
+       z-index: 1000%;
+       background-color:white;  
+
+
+}
+ .img6{
+    background: white;
+    position: relative;
+       border-radius: 1rem;
+       bottom:700px;
+       width: 8%;
+       left: 490px;
+       right: 8%;
+       height: 150px;
+       width: 250px;
+       padding: 0px 24px;
+       
+         display: flex; 
+       justify-content: center;
+          
+       
+       z-index: 1000%;
+       background-color:white;  
+
+
+}
+ .img7{
+    background: white;
+    position: relative;
+       border-radius: 1rem;
+       bottom:850px;
+       width: 8%;
+       left: 780px;
+       right: 8%;
+       height: 150px;
+       width: 250px;
+       padding: 0px 24px;
+       
+         display: flex; 
+       justify-content: center;
+          
+       
+       z-index: 1000%;
+       background-color:white;  
+
+
+}      
+.images img{
+    border-radius: 20px;
+    
+}
+.images{
+    margin-left: 200px;
+    margin-top: 200px;
+
+}
+.Name{
+    color:rgb(149, 134, 134);
+    position: relative;
+    bottom: 169px;
+    left: 75%;
+}
+.brochure{
+    display: inline-block;
+    color: white;
+    background: black;
+    position: relative;
+    top: 80px;
+    right: 200px;
+    padding: 0px 40px;
+    border-radius: 15% 15%;
+}
